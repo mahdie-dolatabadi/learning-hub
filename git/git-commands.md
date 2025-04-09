@@ -34,6 +34,7 @@ git add
 ```bash
 git commit
 ```
+#### The two commands above help us to track changes and store them.
 
 ### ✅ Remove a file from staging and working dir(lm)
 ```bash
