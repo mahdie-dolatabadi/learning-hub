@@ -41,10 +41,25 @@ git commit -m "commit-message"
 git rm
 ```
 
+### ✅ Delete a branch locally
+```bash
+git branch -d <branch-name-for-deletion>
+```
+
+### ✅ Delete a branch remotely
+```bash
+git push --delete <remote-name>(origin) <branch-name>
+```
+
 ## 🟢 Information
 ### ✅ Display the current state of the working directory and current repository(added, deleted, or modified files)
 ```bash
 git status
+```
+
+### ✅ Show the changes that we have made on the branch that we're on
+```bash
+git show
 ```
 
 ## 🟢 Collaborating
@@ -70,7 +85,7 @@ git push <remote-name> <branch-name>
 
 ### ✅ fetch changes from a remote repository and merges them with your local repository.
 ```bash
-git pull <remote-name> <branch-name>
+git pull <remote-name>(origin) <branch-name>
 ```
 
 
