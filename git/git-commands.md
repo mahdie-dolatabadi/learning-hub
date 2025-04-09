@@ -32,7 +32,7 @@ git add
 
 ### ✅ Record the changes made to the files to a local repository.
 ```bash
-git commit
+git commit -m "commit-message"
 ```
 #### The two commands above help us to track changes and store them.
 
