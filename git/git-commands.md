@@ -48,9 +48,14 @@ git status
 ```
 
 ## 🟢 Collaborating
-### ✅ Create a new branch and switch to the branch at the same time.
+### ✅ Create a new branch and switch to the branch at the same time
 ```bash
 git checkout -b <new-branch-name>
+```
+
+### ✅ Change the branch
+```bash
+git switch <destiny-branch-name>
 ```
 
 ### ✅ take the independent lines of development and integrate them into a single branch
