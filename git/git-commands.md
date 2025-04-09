@@ -48,6 +48,11 @@ git status
 ```
 
 ## 🟢 Collaborating
+### ✅ Create a new branch and switch to the branch at the same time.
+```bash
+git checkout -b <new-branch-name>
+```
+
 ### ✅ take the independent lines of development and integrate them into a single branch
 ```bash
 git merge <independent-branch-name>
